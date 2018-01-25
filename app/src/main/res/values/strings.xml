@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">wifiscanner</string>
-    <string name="scan_again">btm1string</string>
+    <string name="scan_again">Scan Again</string>
 </resources>
