@@ -1,22 +1,50 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical"
-android:padding="10dp"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
 
-<ListView
-    android:id="@+id/wifilist"
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="0.97" />
+    <ListView
+        android:id="@+id/wifilist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.97" />
 
 
-<Button
-    android:id="@+id/scan"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_gravity="bottom"
-    android:layout_margin="15dp"
-    android:background="@android:color/holo_green_light"
-    android:text="@string/scan_again" />
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/scan"
+        android:text="@string/scan_again"
+        android:layout_margin="15dp"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        />
+
+    <Button
+        android:id="@+id/mentesbtn"
+        android:text="@string/mentes"
+        android:layout_margin="15dp"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    </LinearLayout>
+
+
+
+
 </LinearLayout>
